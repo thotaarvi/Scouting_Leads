@@ -1,0 +1,13 @@
+# Service account / credentials
+*.json
+*.pem
+*.key
+
+# Specific credential files
+service-account.json
+credentials.json
+google-credentials.json
+
+# Environment files (often contain secrets)
+.env
+.env.*
