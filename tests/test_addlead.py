@@ -73,13 +73,13 @@ def test_valid_login(setup):
             ec.invisibility_of_element_located((By.XPATH, "//button[text()='Add Lead']")))
 
 
-        #scout.wait_for_row(row["email"])
+        scout.wait_for_row(row["email"])
 
 
-        #scout.click_scout(row["email"])
+        scout.click_scout(row["email"])
 
 
-        #scout.wait_for_completion(row["email"])
+        scout.wait_for_completion(row["email"])
 
 
 
