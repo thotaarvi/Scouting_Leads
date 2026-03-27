@@ -18,7 +18,7 @@ def setup():
 
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
-        #options=chrome_options
+        options=chrome_options
     )
     driver.maximize_window()
     driver.implicitly_wait(10)
